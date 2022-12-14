@@ -36,14 +36,14 @@ java main -e 4 test.txt -y
  
  The fourth argument is an operating mode for building histograms for frequency test: "-y" or "-n" (yes, no).
  
-Next, you will need to enter the key from the keyboard. If it hasn't an inverse matrix by modulo 26 (number of latin characters) you need run program again. There are must be only latin characters in file. The result of the system operation will be recorded in a file "result.txt".
+Next, you will need to enter the matrix K from the keyboard. If it hasn't an inverse matrix K^(-1) by modulo 26 (number of latin characters) you need run program again. There are must be only latin characters in file. The result of the system operation will be recorded in a file "result.txt".
 
 ### Frequency test
 
-A numbers symbols of cipher text: 
+A number symbols of cipher text: 
 
 ![image](https://user-images.githubusercontent.com/115879518/207670420-8a09da2b-87fa-4609-92d9-533ac2f653e6.png)
 
-A numbers symbols of plain text: 
+A number symbols of plain text: 
 
 ![image](https://user-images.githubusercontent.com/115879518/207670581-cb79954c-0e3e-4452-93f0-cd5944e0c475.png)
