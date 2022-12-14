@@ -1,4 +1,4 @@
- # HillsCiper
+ # HillsCipher
 The simple Hill's cipher  implementation for English alphabet with building frequency histograms
 ## A little bit about the algorithm
 The Hill's cipher is a polygraphic cipher based on linear algebra.
