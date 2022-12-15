@@ -32,11 +32,11 @@ public class Main {
 			String output = "";
 			if (action.equals("-d")) {
 				System.out.println("start decrypt");
-				output = hill.ciper(input, false);
+				output = hill.cipher(input, false);
 				FileLoader.writeData(output);
 			} else if(action.equals("-e")){
 				System.out.println("start encrypt");
-				output = hill.ciper(input, true);
+				output = hill.cipher(input, true);
 				FileLoader.writeData(output);
 			} else {
 				System.out.println("the action key is not recognized");
