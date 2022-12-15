@@ -11,7 +11,7 @@ public class Hills {
 		iKey = getInverseKey();
 	}
 
-	public String ciper(String data, boolean action) {
+	public String cipher(String data, boolean action) {
 		int[][] curKey;
 		System.out.println(data);
 		if(!action) {
